@@ -42,7 +42,15 @@ CREATE TABLE `books` (
 LOCK TABLES `books` WRITE;
 /*!40000 ALTER TABLE `books` DISABLE KEYS */;
 INSERT INTO `books` VALUES 
-(1,'Derek Landy','2009','Mortal Coil','300','Fantasy','Very Good','insertnewjpg.jpg');
+(1,'Derek Landy','2009','Mortal Coil','300','Fantasy','Very Good','insertnewjpg.jpg'),
+(2,'Harper Lee','1960','To Kill a Mockingbird','450','Coming of age','Excellent','insertnewjpg.jpg'),
+(3,'Leo Tolstoy','1962','Anna Karenina','600','adult','Good','insertnewjpg.jpg'),
+(4,'F. Scott Fitzgerald','1920','The Great Gatsby','200','Tragedy','Excellent','insertnewjpg.jpg'),
+(5,'Gabriel García Márquez','1967','One Hundred Years of Solitude','500','Magic realism','Very Good','insertnewjpg.jpg'),
+(6,'E.M. Forster','1924','A Passage to India','170','Novel','Good','insertnewjpg.jpg'),
+(7,'Ralph Ellison','1953','Invisible Man','550','science fiction','Excellent','insertnewjpg.jpg'),
+(8,'Miguel de Cervantes','1615','Don Quixote','200','modern novel','Good','insertnewjpg.jpg'),
+(9,'Toni Morrison','1873','Beloved','350','historical fiction','Very Good','insertnewjpg.jpg');
 
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

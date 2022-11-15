@@ -61,7 +61,7 @@ function addBook() {
 	}
 }
 function deleteBook($id) {
-	$query = "DELETE FROM books WHERE id=:id";
+	$query = "DELETE FROM books WHERE id=$id";
 	try {
 		global $db;
 		$db->exec($query);
